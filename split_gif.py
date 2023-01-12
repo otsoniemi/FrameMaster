@@ -13,8 +13,3 @@ def split_gif(gif_path, output_folder):
             pass
     else:
         print(f"File {gif_path} doesn't exist.")
-
-if __name__ == "__main__":
-    gif_path = "example.gif"
-    output_folder = "output"
-    split_gif(gif_path, output_folder)

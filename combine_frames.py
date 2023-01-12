@@ -21,10 +21,3 @@ def combine_frames(input_folder, output_folder, output_format, fps_amount):
         clip.write_videofile(output_path)
     else:
         print("Invalid output format")
-
-if __name__ == "__main__":
-    input_folder = "input"
-    output_folder = "output"
-    output_format = "gif"
-    fps_amount = "24"
-    combine_frames(input_folder, output_folder, output_format)
