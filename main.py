@@ -1,10 +1,17 @@
 import split_gif
 import combine_frames
+import os
 
 def main():
-    print("FRAMEMASTER")
-    print("1. Split gif")
-    print("2. Combine frames")
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print("###############################################")
+    print("#                                             #")
+    print("#                FRAMEMASTER                  #")
+    print("#                                             #")
+    print("###############################################")
+    print("# 1. Split gif                               #")
+    print("# 2. Combine frames                          #")
+    print("###############################################")
     choice = input("Enter your choice: ")
 
     if choice == "1":
